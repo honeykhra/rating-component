@@ -49,7 +49,7 @@ ul {
 }
 
 li {
-  padding: 1rem 1.5rem;
+  padding: 1.25rem 1.5rem;
   background: var(--Dark-Blue);
   border-radius: 50%;
   color: var(--Light-Grey);
