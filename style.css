@@ -54,14 +54,33 @@ li {
   border-radius: 50%;
   color: var(--Light-Grey);
 }
+li:nth-child(4){
+  background: var(--Light-Grey);
+  color: var(--White);
+}
+li:hover{
+  background: var(--orange);
+  color: var(--White);
+}
+
 button {
   width: 90%;
   border: none;
   border-radius: 2rem;
   margin: 1rem;
+  background: var(--White);
+  color: var(--orange);
+  padding: 1rem 5rem;
+  font-size: 1.3rem;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+button:hover {
+  cursor: pointer;
   background: var(--orange);
   color: var(--White);
-  padding: 1rem 5rem;
 }
 
 .attribution {
@@ -70,4 +89,7 @@ button {
 .attribution a {
   color: var(--orange);
   text-decoration: none;
+}
+.attribution a:hover {
+  color: var(--Medium-Grey);
 }
